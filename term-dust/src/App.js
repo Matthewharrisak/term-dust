@@ -4,12 +4,13 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
+    
+    <div className="App">
     <Container>
       <Row >
         <Col>
+        <NavBar/>
           {" "}
-          <NavBar />
         </Col>
       </Row>
     </Container>
