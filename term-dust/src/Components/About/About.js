@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import Wrapper from '../Wrapper/Wrapper';
 
 const AboutStyled = styled.div`
-  background-color: aquamarine;
+  background-color: rgb(13, 169, 161);
+  color: rgb(238, 234, 218);
+  padding: 30px;
   .active {
     border-bottom: 1px solid white;
   }

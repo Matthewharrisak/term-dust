@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 import Wrapper from '../Wrapper/Wrapper';
 
-const ContactStyled = styled.div`background-color: yellow;`;
+const ContactStyled = styled.div`
+background-color: rgb(13, 169, 161);
+color: rgb(238, 234, 218);
+padding: 30px;`;
 
 export default function Contact() {
   return (

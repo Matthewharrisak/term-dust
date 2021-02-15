@@ -11,16 +11,18 @@ const NavbarStyled = styled.div`
   width: 100%;
   .header {
     background: black;
-    padding: 40px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     margin: 0;
-    color: white;
+    color: rgb(238, 234, 218);
+    font-family: 'Arimo', sans-serif;
     * {
       cursor: pointer;
+      color: rgb(229, 159, 70);
     }
     .active {
-      border-bottom: 1px solid white;
+      // border-bottom: 1px solid white;
     }
   }
   .scrolling-buttons {
@@ -33,6 +35,7 @@ export default function Navbar() {
   return (
     <NavbarStyled>
       <div className="header">
+        <h1>TERMINATION DUST</h1>
         <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
           About
         </Link>
