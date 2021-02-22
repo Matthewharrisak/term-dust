@@ -18,17 +18,26 @@ const NavbarStyled = styled.div`
     margin: 0;
     color: rgb(238, 234, 218);
     font-family: "Arimo", sans-serif;
+    
     * {
       cursor: pointer;
-      color: rgb(229, 159, 70);
+      color: rgb(238, 102, 37);
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color: rgb(238, 102, 37);
+      }
     }
     .active {
       // border-bottom: 1px solid white;
+      // text-decoration: underline;
+      color: rgb(238, 102, 37);
     }
   }
   .logo{
     font-weight: bolder;
     font-size: 40px;
+    color: rgb(238, 102, 37);
   }
 
 `;
@@ -61,6 +70,7 @@ export default function Navbar() {
           >
             About
           </Link>
+
           <Link
           className="pages"
             activeClass="active"
@@ -71,7 +81,20 @@ export default function Navbar() {
           >
             Shows
           </Link>
+
           <Link
+          className="pages"
+            activeClass="active"
+            to="store"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Store
+          </Link>
+
+          <Link
+          className="pages"
             activeClass="active"
             to="contact"
             spy={true}

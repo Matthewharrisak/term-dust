@@ -4,7 +4,9 @@ import "./App.css";
 import Landing from "./Components/Landing/Landing";
 import About from "./Components/About/About";
 import Shows from "./Components/Shows/Shows";
+import Store from "./Components/Store/Store";
 import Contact from "./Components/Contact/Contact";
+
 
 class App extends Component {
   render() {
@@ -14,6 +16,7 @@ class App extends Component {
         <Landing id="landing" />
         <About id="about" />
         <Shows id="shows" />
+        <Store id="store"/>
         <Contact id="contact" />
       </div>
     );

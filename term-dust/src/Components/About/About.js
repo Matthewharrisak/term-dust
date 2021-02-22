@@ -7,9 +7,9 @@ const AboutStyled = styled.div`
   background-color: rgb(13, 169, 161);
   color: rgb(238, 234, 218);
   padding: 30px;
-  .active {
-    border-bottom: 1px solid white;
-  }
+  // .active {
+  //   border-bottom: 1px solid white;
+  // }
 `;
 
 export default function About() {
