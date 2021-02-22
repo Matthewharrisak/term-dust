@@ -1,12 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
+import LandingPic from "../../Assets/tdustyellow.jpg"
 
 
 
 
 const LandingStyled = styled.div`
-  background-color: rgb(238, 102, 37);
+  background-color: rgb(253, 183, 2);
+  background-image: url(${LandingPic});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: rgb(238, 234, 218);
   padding: 30px;
   .active {
@@ -19,10 +24,7 @@ export default function About() {
     <>
     <LandingStyled id="landing">
       <Wrapper>
-        <h1>LANDING</h1>
-        <p>
-          THIS IS THE LANDING PAGE, HOME OF A VIDEO BACKGROUND IN THE FUTURE
-        </p>
+        {/* this is the future home of a video background */}
         
       </Wrapper>
       

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
 
 const AboutStyled = styled.div`
-  background-color: rgb(13, 169, 161);
+  background-color: rgb(57, 226, 216);
   color: rgb(238, 234, 218);
   padding: 30px;
   // .active {
