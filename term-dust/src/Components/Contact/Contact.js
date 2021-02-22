@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-
 import Wrapper from "../Wrapper/Wrapper";
 
 const ContactStyled = styled.div`
-  background-color: rgb(13, 169, 161);
+  background-color: rgb(238, 102, 37);
   color: rgb(238, 234, 218);
   padding: 30px;
 `;

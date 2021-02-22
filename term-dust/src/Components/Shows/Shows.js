@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
 
 const ShowsStyled = styled.div`
-  background-color: rgb(229, 159, 70);
+  background-color: rgb(238, 102, 37);
   color: rgb(238, 234, 218);
   padding: 30px;
   ul{
