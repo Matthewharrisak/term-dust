@@ -4,14 +4,14 @@ import Wrapper from "../Wrapper/Wrapper";
 
 const StoreStyled = styled.div`
   background-color: rgb(13, 169, 161);
-  color: rgb(238, 102, 37);
   padding: 30px;
 
   button {
       width: 200px;
       padding: 30px;
       margin: 0 auto;
-      background-color: rgb(238, 102, 37);
+      background-color: rgb(253, 183, 2);
+    
   }
 `;
 

@@ -16,28 +16,27 @@ const NavbarStyled = styled.div`
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    color: rgb(238, 234, 218);
     font-family: "Arimo", sans-serif;
     
     * {
       cursor: pointer;
-      color: rgb(238, 102, 37);
+      // color: rgb(238, 102, 37);
       color: white;
       text-decoration: none;
       &:hover{
-        color: rgb(238, 102, 37);
+        // color: rgb(238, 102, 37);
+        color: rgb(253, 183, 2);
       }
     }
     .active {
-      // border-bottom: 1px solid white;
-      // text-decoration: underline;
-      color: rgb(238, 102, 37);
+      color: rgb(253, 183, 2);
     }
   }
   .logo{
+    //this is styling specific to the band name in the nav bar
     font-weight: bolder;
     font-size: 40px;
-    color: rgb(238, 102, 37);
+    color: rgb(253, 183, 2);
   }
 
 `;
