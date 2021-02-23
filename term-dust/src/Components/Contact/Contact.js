@@ -1,11 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
+import ContactPic from "../../Assets/tduststage.png";
 
 const ContactStyled = styled.div`
   background-color: rgb(253, 183, 2);
   color: rgb(238, 234, 218);
   padding: 30px;
+  background-image: url(${ContactPic});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 `;
 
 export default function Contact() {
