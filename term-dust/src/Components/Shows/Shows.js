@@ -2,13 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 import Wrapper from "../Wrapper/Wrapper";
+import ShowsPic from "../../Assets/tdustpullandpeel.png";
 
 const ShowsStyled = styled.div`
   background-color: rgb(253, 183, 2);
   color: rgb(238, 234, 218);
   padding: 30px;
-  ul{
-  list-style-type: none;
+  background-image: url(${ShowsPic});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  ul {
+    list-style-type: none;
   }
 `;
 
@@ -20,7 +25,9 @@ export default function Shows() {
         <ul>
           <li>09.17.18 - La Crosse, WI - La Crosse Center $</li>
           <li>09.18.18 - Duluth, MN - DECC Symphony Hall $</li>
-          <li>09.19.18 - Green Bay, WI - Brown Country Veterans Memorial Arena $</li>
+          <li>
+            09.19.18 - Green Bay, WI - Brown Country Veterans Memorial Arena $
+          </li>
           <li>09.20.18 - Milwaukee, WI - Quarters *</li>
           <li>09.21.18 - Fort Wayne, IN - Foellinger Outdoor Theater $</li>
           <li>09.22.18 - Waukegan, IL - Genesee Theater $</li>

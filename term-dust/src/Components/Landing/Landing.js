@@ -1,10 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
-import LandingPic from "../../Assets/tdustyellow.jpg"
-
-
-
+import LandingPic from "../../Assets/tdustyellow.jpg";
 
 const LandingStyled = styled.div`
   background-color: rgb(253, 183, 2);
@@ -21,15 +18,8 @@ const LandingStyled = styled.div`
 
 export default function About() {
   return (
-    <>
     <LandingStyled id="landing">
-      <Wrapper>
-        {/* this is the future home of a video background */}
-        
-      </Wrapper>
-      
+      <Wrapper>{/* this is the future home of a video background */}</Wrapper>
     </LandingStyled>
-    {/* <Video/> */}
-    </>
   );
 }

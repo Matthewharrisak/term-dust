@@ -17,13 +17,13 @@ const NavbarStyled = styled.div`
     align-items: center;
     margin: 0;
     font-family: "Arimo", sans-serif;
-    
+
     * {
       cursor: pointer;
       // color: rgb(238, 102, 37);
       color: white;
       text-decoration: none;
-      &:hover{
+      &:hover {
         // color: rgb(238, 102, 37);
         color: rgb(253, 183, 2);
       }
@@ -32,20 +32,18 @@ const NavbarStyled = styled.div`
       color: rgb(253, 183, 2);
     }
   }
-  .logo{
+  .logo {
     //this is styling specific to the band name in the nav bar
     font-weight: bolder;
     font-size: 40px;
     color: rgb(253, 183, 2);
   }
-
 `;
 
 export default function Navbar() {
   return (
     <NavbarStyled>
       <div className="header">
-
         <div className="logo">
           <Link
             activeClass="active"
@@ -58,52 +56,51 @@ export default function Navbar() {
           </Link>
         </div>
 
-        
-          <Link
+        <Link
           className="pages"
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            About
-          </Link>
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          About
+        </Link>
 
-          <Link
+        <Link
           className="pages"
-            activeClass="active"
-            to="shows"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            Shows
-          </Link>
+          activeClass="active"
+          to="shows"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          Shows
+        </Link>
 
-          <Link
+        <Link
           className="pages"
-            activeClass="active"
-            to="store"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            Store
-          </Link>
+          activeClass="active"
+          to="store"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          Store
+        </Link>
 
-          <Link
+        <Link
           className="pages"
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            Contact
-          </Link>
-        </div>
-      
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          Contact
+        </Link>
+      </div>
+
       <div className="scrolling-buttons">
         <Wrapper>{/* <OnScreenScrolling /> */}</Wrapper>
       </div>

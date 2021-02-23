@@ -2,14 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 import Wrapper from "../Wrapper/Wrapper";
+import AboutPic from "../../Assets/tdustsampler.png";
 
 const AboutStyled = styled.div`
   background-color: rgb(57, 226, 216);
   color: rgb(238, 234, 218);
   padding: 30px;
-  // .active {
-  //   border-bottom: 1px solid white;
-  // }
+  background-image: url(${AboutPic});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 `;
 
 export default function About() {
@@ -17,12 +19,7 @@ export default function About() {
     <AboutStyled id="about">
       <Wrapper>
         <h1>About</h1>
-        <p>
-          THIS IS THE ABOUT SECTION Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Placeat blanditiis adipisci eaque animi repellat
-          atque assumenda corporis quidem nostrum ea, nulla qui cupiditate
-          suscipit, quisquam voluptas mollitia ex iusto voluptates.
-        </p>
+        <p>Very cool band from Alaska.</p>
       </Wrapper>
     </AboutStyled>
   );
