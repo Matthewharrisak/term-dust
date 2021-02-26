@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Wrapper/Wrapper";
 import ContactPic from "../../Assets/tduststage.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 
 const ContactStyled = styled.div`
   background-color: rgb(253, 183, 2);
@@ -13,17 +15,22 @@ const ContactStyled = styled.div`
   background-size: cover;
 `;
 
+const facebook = <FontAwesomeIcon icon={faFacebookSquare}/>
+const instagram = <FontAwesomeIcon icon={faInstagramSquare}/>
+
 export default function Contact() {
   return (
     <ContactStyled id="contact">
       <Wrapper>
+        <>
         <h1>Contact</h1>
-        <p>
-          THIS IS THE CONTACT SECTION Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Placeat blanditiis adipisci eaque animi repellat
-          atque assumenda corporis quidem nostrum ea, nulla qui cupiditate
-          suscipit, quisquam voluptas mollitia ex iusto voluptates.
-        </p>
+        <a href="https://www.facebook.com/terminationdust/">
+                       <p className="SocialIcon">{facebook}</p>
+                    </a>
+                    <a href="https://www.instagram.com/termination.dust/?hl=en">
+                       <p className="SocialIcon">{instagram}</p>
+                    </a>
+                    </>
       </Wrapper>
     </ContactStyled>
   );
